@@ -1,0 +1,17 @@
+{
+  "name": "exam",
+  "version": "1.0.0",
+  "description": "web server exam project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ember",
+  "license": "ISC",
+  "dependencies": {
+    "https": "^1.0.0",
+    "node-fetch": "^3.3.0"
+  }
+}
