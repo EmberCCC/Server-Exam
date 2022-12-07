@@ -17,4 +17,5 @@
 
    ```shell
    node index.js ...args(albumIds) 
+   such as node index.js 1234 12345 123456
    ```
