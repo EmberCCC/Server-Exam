@@ -30,7 +30,7 @@ async function solve_album(albumId) {
         const album_list = await get_request(ARTICLE_LIST_URL, { albumId, pageNum: index })
         await downloadFiles(album_list.tracks ?? [], albumId)
     }
-    console.time(`${albumId} download duration:`)
+    console.timeEnd(`${albumId} download duration:`)
     return 'finish'
 }
 
